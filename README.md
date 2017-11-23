@@ -1,21 +1,23 @@
-# object-oriented-ex 0
+# object-oriented-ex 1
 
-שמות מגישים:
-אביתר לוי – 203805833
-שחר בוטסזאן – 203252986
-המערכת:
-1.	המערכת מקבלת קבצי CSV אשר נבנו ע"י אפליקציות שונות לסריקת רשתות סביב המכשיר בכל רגע נתון ו/או לאורך מסלול.
-2.	המערכת מסדרת את נתוני הקבצים במחלקות ומבני הנתונים השונים המפורטים במשך*.
-3.	המערכת יודעת לייצא לקובץ CSV חדש את הנתונים לאחר סינון של 10 הרשתות החזקות בכל דגימה ומסדרת אותם בצורה מסודרת בטבלה.
-4.	בנוסף המערכת יודעת לעשות סינון ע"פ זמן / מיקום / וID .
-5.	המערכת יודעת לייצא לקובץ KML את הנתונים על מנת לצפות בהם על גבי מפת GOOGLE.
-*השתמשנו במחלקה אשר מייצגת כל רשת שנסרקה עם כלל הנתונים שלה, במחלקה שמכילה מערך הכולל את 10 הרשתות החזקות מאותה דגימה 
-ובמני הנתונים רשימה מקושרת אשר מכיל את כל הדגימות שנעשו.
-רכבי התוכנה:
-1.	השתמשנו במחלקות הDATE של JAVA .
-2.	במחלקת XML על מנת לכתוב את קבצי הKML.
-3.	במחלקות לקריאת קבצים של JAVA.
-4.	ברשימה מקושרת.
+eviatar levi – 203805833
+shahar botesazan – 203252986
+
+System:
+1.	The system get CSV files which bullied by different applications for searching networks around the advice in every moment and\or for along the route.
+2.	The system arrange the files data in the classes and also in the different data structures will listed below*.
+3.	The system know to import the data to new CSV file after filtering the 10 most powerful networks in every sampling and arrange them in the table.
+4.	Additionally, the system know to filtering on time \ location\ id.
+5.	The system know to import the data to KML file and that for producing them on GOOGLE MAPS.
+
+* we used a class which represents every network that was scanned with all her network details in class who including the 10 most powerful from the same sampling and in the data structure linked list who contain all of the sampling we did.
+
+Software component:
+1.	We used the date of java class.
+2.	We used API JAK for writing the kml files.
+3.	In file reading class of java.
+4.	In linked list.
+
 
 
 
