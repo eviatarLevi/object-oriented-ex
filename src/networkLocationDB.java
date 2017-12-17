@@ -18,8 +18,7 @@ public class networkLocationDB {
 			n = n.next;
 		}
 		sort();
-		list = algoLocation1();
-		System.out.println("Done algo 1");
+		
 	}
 	public static double weightC(int x)
 	{
@@ -69,6 +68,7 @@ public class networkLocationDB {
 			}
 			
 		}
+		System.out.println("Done algo 1");
 		return newList;
 
 	}

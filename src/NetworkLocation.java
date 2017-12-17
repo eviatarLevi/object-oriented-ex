@@ -5,12 +5,20 @@ public class NetworkLocation {
 	double lon;
 	double alt;
 	double weight;
+	int signal;
 	public NetworkLocation(String mac, double lat, double lon, double alt){
 		this.mac = mac;
 		this.lat = lat;
 		this.lon = lon;
 		this.alt = alt;
 		this.weight = 0;
+	}
+	public NetworkLocation(String mac, double lat, double lon, double alt, int signal){
+		this.mac = mac;
+		this.lat = lat;
+		this.lon = lon;
+		this.alt = alt;
+		this.signal = signal;
 	}
 	public NetworkLocation(String mac, double lat, double lon, double alt, double weight){
 		this.mac = mac;
@@ -26,6 +34,7 @@ public class NetworkLocation {
 			this.lon = n.lon;
 			this.alt = n.alt;
 			this.weight = n.weight;
+			this.signal = n.signal;
 		}
 	}
 	public String toString()
