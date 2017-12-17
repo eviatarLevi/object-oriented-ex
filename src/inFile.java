@@ -1,8 +1,12 @@
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 /**
@@ -19,6 +23,7 @@ public class inFile {
 	 * @throws IOException
 	 * @see linkedScan 
 	 * @link linkedScan
+	 * csv to data
 	 */
 	public static linkedScan toDB (String folderName) throws IOException {
 		linkedScan lS = new linkedScan();
@@ -86,10 +91,73 @@ public class inFile {
 			} 
 			catch (Exception e) {
 				fi.close();
-				System.out.println("ERROR inFile");
-				System.out.println(e);
+				System.err.println("ERROR inFile");
+				System.err.println(e);
 			}
 		}
+		return lS;
+	}
+	/**
+	 * 
+	 * @param folderName
+	 * @return linkedScan (linkeList with data)
+	 * @throws IOException
+	 * @throws ParseException 
+	 * @see linkedScan 
+	 * @link linkedScan
+	 * merge csv to data
+	 */
+	public static linkedScan MtoDB (String fileName,int dateType) throws IOException, ParseException {
+		linkedScan lS = new linkedScan();
+		DateFormat format;
+		if (dateType==1)
+			format = new  SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+		else if (dateType==2)
+			format = new  SimpleDateFormat("MM/dd/yyyy hh:mm:ss");
+		else
+			format = new  SimpleDateFormat("dd/MM/yy hh:mm");
+        BufferedReader br = null;
+        String line = "";
+        String cvsSplitBy = ",";
+        try {
+
+            br = new BufferedReader(new FileReader(fileName));
+            line = br.readLine();
+            while ((line = br.readLine()) != null) {
+                // use comma as separator
+                String[] country = line.split(cvsSplitBy);
+                Date firstsin = format.parse(country[0]);
+                String  id = country[1];
+                for (int i = 2; i < 5; i++) 
+                	if (country[i].equals("?"))
+                		country[i]="0";
+                double latitude=Double.parseDouble(country[2]);
+                double longitude=Double.parseDouble(country[3]);
+                double altitude=Double.parseDouble(country[4]);
+                
+                for (int i = 0; i < 10; i++) {
+                	if (country.length > i*4 + 6)
+                		lS.add("", "", id, latitude,
+							longitude, altitude, 0,country[7+i*4],
+							country[6+i*4], "", "", firstsin,
+							Integer.parseInt(country[8+i*4]),
+							(int)Double.parseDouble(country[9+i*4])); // add to data
+				}
+            }
+            System.out.println("csv_M read complete");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
 		return lS;
 	}
 }

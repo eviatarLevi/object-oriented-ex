@@ -1,17 +1,22 @@
 import java.io.IOException;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 public class Main {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, ParseException {
 		// TODO Auto-generated method stub
-		DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"); // date format 
+		DateFormat format = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss"); // date format 
 		// read
-		linkedScan DB = inFile.toDB("testFile/scan");
-		DB.toCsv("C:/1/2/test.csv");
-		
-		linkedScan DBf; // DB for filter
+		linkedScan DB = inFile.toDB("C:/1/4");
+		DB.toCsv("C:/1/c/test.csv");
+		//linkedScan DBs = inFile.MtoDB("C:/1/2/test.csv",2);
+		//networkLocationDB nLdB = new networkLocationDB(DBs);
+		//linkedScan DBr = inFile.MtoDB("C:/1/r/test.csv",2);
+		//DBr.findLocation(nLdB);
+		//DBr.toCsv("C:/1/2/test.csv");
+		//linkedScan DBf; // DB for filter
 		//id filter
 		/*
 		DBf = DB.idFilter("model=SHIELD Tablet");

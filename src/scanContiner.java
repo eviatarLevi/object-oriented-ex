@@ -31,4 +31,12 @@ public class scanContiner {
 					networks[rssiMin] = new NetworkData(l,mac,ssid,authmode,chanel,rssi,type);
 			}
 		}
+		public void setLatLonAlt (double lat,double lon, double alt)
+		{
+			for (int j = 0; j < size; j++) {
+				networks[j].CurrentLatitude = lat;
+				networks[j].CurrentLongitude = lon;
+				networks[j].AltitudeMeters = alt;
+			}
+		}
 }

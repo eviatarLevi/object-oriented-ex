@@ -155,6 +155,31 @@ public class linkedScan {
 		}
 		return DbN;
 	}
+	
+	public boolean findLocation(networkLocationDB L){
+		if (L==null)
+			return false;
+		Node n = head;
+		double sumLat=0, sumLon=0,sumAlt=0,sumWeight=0;
+		while(n!=null)
+		{
+			for (int i = 0; i < n.sC.size; i++) {
+				NetworkLocation N = L.findMac(n.sC.networks[i].mac);
+				if(N != null){
+					double weight = networkLocationDB.weightC(n.sC.networks[i].rssi);
+					sumLat += N.lat * weight;
+					sumLon += N.lon * weight;
+					sumAlt += N.alt * weight;
+					sumWeight += weight;
+				}
+			}
+			n.sC.setLatLonAlt(sumLat/sumWeight, sumLon/sumWeight, sumAlt/sumWeight);
+			n=n.next;
+		}
+		return true;
+		
+	}
+
 	// data to kml
 	/**
 	 * @see data to kml
@@ -244,31 +269,25 @@ public class linkedScan {
 		try {
 			PrintWriter pw = new PrintWriter(new File(fileName));
 			StringBuilder sb = new StringBuilder();
-			sb.append("Time,ID,Lat,Lon,Alt,#WiFi networks,");
+			DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+			sb.append("Time,ID,Lat,Lon,Alt,#WiFi networks");
 			for (int i = 1; i <= 10; i++) {
-				sb.append("SSID"+i+",MAC"+i+",Frequncy"+i+",Signal"+i+"," );
+				sb.append(",SSID"+i+",MAC"+i+",chanel"+i+",Signal"+i);
 			}
-			sb.append("\n" );
+			sb.append(System.getProperty("line.separator"));
 			Node n = head;
 			while (n!=null) // while for samples
 			{
 				if(n.sC.networks[0]!=null)// for for network in one samples 
 				{
 					NetworkData net = n.sC.networks[0];
-					sb.append(net.firstsin+"," + net.id + "," + net.CurrentLatitude + "," 
-								+ net.CurrentLongitude +","+net.AltitudeMeters + "," + n.sC.size+",");
+					sb.append(df.format(net.firstsin)+"," + net.id + "," + net.CurrentLatitude + "," 
+								+ net.CurrentLongitude +","+net.AltitudeMeters + "," + n.sC.size );
 					for (int i = 0; i < n.sC.size; i++) {
 						net = n.sC.networks[i];
-						String Frequncy;
-						if(net.chanel == 0) 
-							Frequncy = "gsm";
-						else if (net.chanel > 35)
-							Frequncy = "5 GHZ";
-						else
-							Frequncy = "2.4 GHZ";
-						sb.append(net.ssid+"," + net.mac +"," + Frequncy +"," + net.rssi+"," );
+						sb.append(","+net.ssid+"," + net.mac +"," + net.chanel +"," + net.rssi);
 					}
-					sb.append("\n" );
+					sb.append(System.getProperty("line.separator"));
 				}
 			
 				n = n.next;
@@ -282,7 +301,5 @@ public class linkedScan {
 			return false;
 		}
 	}
-	
-	
 	
 }
