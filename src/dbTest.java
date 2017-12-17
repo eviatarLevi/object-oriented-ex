@@ -13,7 +13,7 @@ import org.junit.Test;
  */
 public class dbTest {
 /**
- * @test 
+ * @test for
  */
 	@Test
 	public void testAddToLinkedscan() {
