@@ -5,7 +5,7 @@ public class NetworkLocation {
 	double lon;
 	double alt;
 	double weight;
-	int signal;
+	int signal;//
 	public NetworkLocation(String mac, double lat, double lon, double alt){
 		this.mac = mac;
 		this.lat = lat;
