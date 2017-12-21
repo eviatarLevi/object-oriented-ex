@@ -144,7 +144,7 @@ public class inFile {
 							(int)Double.parseDouble(country[9+i*4])); // add to data
 				}
             }
-            System.out.println("csv_M read complete");
+            System.out.println("csv read complete");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
