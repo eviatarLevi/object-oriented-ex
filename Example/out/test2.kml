@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <name>kml</name>
+        <Style id="red">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="yellow">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="green">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Folder>
+            <name>wifi</name>
+            <Placemark>
+                <name>IT-MNG</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:ed:b8
+ssid: IT-MNG
+chanel: 1
+signal: -73
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20922825223795,32.103505092629995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>IT-MNG</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:ed:bc
+ssid: IT-MNG
+chanel: 48
+signal: -79
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20922825223795,32.103505092629995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:ed:47
+ssid:  
+chanel: 36
+signal: -80
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20922825223795,32.103505092629995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:e5:a8
+ssid: Ariel_University
+chanel: 6
+signal: -85
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20922825223795,32.103505092629995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:6e:16:88
+ssid:  
+chanel: 11
+signal: -87
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20922825223795,32.103505092629995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:95:1c:b7
+ssid:  
+chanel: 36
+signal: -88
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20922825223795,32.103505092629995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:28:ec
+ssid: Ariel_University
+chanel: 36
+signal: -88
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20922825223795,32.103505092629995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:28:e7
+ssid:  
+chanel: 36
+signal: -89
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20922825223795,32.103505092629995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:ed:48
+ssid: Ariel_University
+chanel: 6
+signal: -57
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209004702391006,32.10405463509958</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>IT-MNG</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:ed:bc
+ssid: IT-MNG
+chanel: 48
+signal: -65
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209004702391006,32.10405463509958</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:95:ed:b7
+ssid:  
+chanel: 48
+signal: -65
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209004702391006,32.10405463509958</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:ed:4c
+ssid: Ariel_University
+chanel: 36
+signal: -68
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209004702391006,32.10405463509958</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>IT-MNG</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:ed:b8
+ssid: IT-MNG
+chanel: 1
+signal: -68
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209004702391006,32.10405463509958</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:28:e8
+ssid: Ariel_University
+chanel: 1
+signal: -88
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209004702391006,32.10405463509958</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:2e:16:88
+ssid: Ariel_University
+chanel: 11
+signal: -89
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209004702391006,32.10405463509958</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>IT-MNG</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:ed:bc
+ssid: IT-MNG
+chanel: 48
+signal: -59
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20847147143369,32.102936258730146</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:2e:16:88
+ssid: Ariel_University
+chanel: 11
+signal: -80
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20920543353396,32.10372378035043</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:6e:16:88
+ssid:  
+chanel: 11
+signal: -82
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20920543353396,32.10372378035043</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:ae:16:83
+ssid:  
+chanel: 11
+signal: -69
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208913088980935,32.10385560519039</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:1c:b8
+ssid: Ariel_University
+chanel: 1
+signal: -70
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208913088980935,32.10385560519039</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:2e:16:88
+ssid: Ariel_University
+chanel: 11
+signal: -70
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208913088980935,32.10385560519039</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:6e:16:88
+ssid:  
+chanel: 11
+signal: -71
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208913088980935,32.10385560519039</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:1c:bc
+ssid: Ariel_University
+chanel: 36
+signal: -77
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208913088980935,32.10385560519039</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-61-HP DeskJet 3630 series</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 30:e1:71:0d:e0:63
+ssid: DIRECT-61-HP DeskJet 3630 series
+chanel: 6
+signal: -80
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208913088980935,32.10385560519039</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-61-HP DeskJet 3630 series</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 30:e1:71:0d:e0:63
+ssid: DIRECT-61-HP DeskJet 3630 series
+chanel: 6
+signal: -69
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979784208113,32.10347204514182</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:95:1c:b7
+ssid:  
+chanel: 36
+signal: -82
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979784208113,32.10347204514182</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:14:2b:8c
+ssid: Ariel_University
+chanel: 44
+signal: -88
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979784208113,32.10347204514182</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Onicom</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: c0:4a:00:71:ee:ee
+ssid: Onicom
+chanel: 9
+signal: -90
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979784208113,32.10347204514182</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-61-HP DeskJet 3630 series</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 30:e1:71:0d:e0:63
+ssid: DIRECT-61-HP DeskJet 3630 series
+chanel: 6
+signal: -62
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20875065199806,32.103621551037406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:6e:16:88
+ssid:  
+chanel: 11
+signal: -65
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20875065199806,32.103621551037406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:e5:ac
+ssid: Ariel_University
+chanel: 36
+signal: -83
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20875065199806,32.103621551037406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:28:ec
+ssid: Ariel_University
+chanel: 36
+signal: -83
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20875065199806,32.103621551037406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:28:e7
+ssid:  
+chanel: 36
+signal: -84
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20875065199806,32.103621551037406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:2e:16:88
+ssid: Ariel_University
+chanel: 11
+signal: -64
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20915170824608,32.10360473789053</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:e5:a7
+ssid:  
+chanel: 36
+signal: -83
+Fri May 12 11:48:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:48Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20915170824608,32.10360473789053</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:ae:16:83
+ssid:  
+chanel: 11
+signal: -64
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979080413638,32.103364391039655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:e5:a8
+ssid: Ariel_University
+chanel: 6
+signal: -78
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979080413638,32.103364391039655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:14:2b:8c
+ssid: Ariel_University
+chanel: 44
+signal: -82
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979080413638,32.103364391039655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:94:2b:87
+ssid:  
+chanel: 44
+signal: -83
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979080413638,32.103364391039655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:f1:57
+ssid:  
+chanel: 52
+signal: -87
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979080413638,32.103364391039655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:f1:5c
+ssid: Ariel_University
+chanel: 52
+signal: -87
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20979080413638,32.103364391039655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>2.4V1</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 40:a5:ef:7a:17:f2
+ssid: 2.4V1
+chanel: 1
+signal: -88
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20841491078534,32.103365082075165</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>__ery</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 14:ae:db:58:0d:6d
+ssid: __ery
+chanel: 11
+signal: -89
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20841491078534,32.103365082075165</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:28:e8
+ssid: Ariel_University
+chanel: 1
+signal: -79
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208858235351094,32.103734399558824</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: ec:8c:a2:26:d3:68
+ssid: Ariel_University
+chanel: 11
+signal: -87
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208858235351094,32.103734399558824</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:12:e8
+ssid: Ariel_University
+chanel: 1
+signal: -90
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208858235351094,32.103734399558824</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:13:08
+ssid: Ariel_University
+chanel: 11
+signal: -90
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.208858235351094,32.103734399558824</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:2e:16:88
+ssid: Ariel_University
+chanel: 11
+signal: -58
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.2085361846064,32.10393710776917</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:6e:16:88
+ssid:  
+chanel: 11
+signal: -60
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.2085361846064,32.10393710776917</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AUC_54_R</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:25:86:cc:00:f8
+ssid: AUC_54_R
+chanel: 5
+signal: -91
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.2085361846064,32.10393710776917</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:ae:16:83
+ssid:  
+chanel: 11
+signal: -59
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20833283461654,32.10408980223513</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AUC_54_R</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:25:86:cc:00:f8
+ssid: AUC_54_R
+chanel: 5
+signal: -84
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20833283461654,32.10408980223513</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>KCG_54</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:25:86:cc:07:b2
+ssid: KCG_54
+chanel: 2
+signal: -86
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20833283461654,32.10408980223513</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>TamiRacheli</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 78:11:dc:1a:cf:d0
+ssid: TamiRacheli
+chanel: 8
+signal: -89
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20879579057389,32.103845923831805</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:02:6f:b8:c4:1a
+ssid:  
+chanel: 11
+signal: -91
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20879579057389,32.103845923831805</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:1d:7c
+ssid: Ariel_University
+chanel: 44
+signal: -61
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20913048068069,32.104482724088776</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:fd:4c
+ssid: Ariel_University
+chanel: 36
+signal: -77
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20913048068069,32.104482724088776</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: ec:8c:a2:26:d2:c8
+ssid: Ariel_University
+chanel: 11
+signal: -89
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20913048068069,32.104482724088776</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Bezeq-n_325E</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 10:0d:7f:99:32:5e
+ssid: Bezeq-n_325E
+chanel: 11
+signal: -75
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20913421650268,32.103864203376546</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: ec:8c:a2:26:d3:68
+ssid: Ariel_University
+chanel: 11
+signal: -78
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20913421650268,32.103864203376546</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: ec:8c:a2:26:d3:68
+ssid: Ariel_University
+chanel: 11
+signal: -73
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209260029415866,32.10460454393588</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 24:c9:a1:35:a5:e8
+ssid: Ariel_University
+chanel: 6
+signal: -89
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209260029415866,32.10460454393588</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:05:38
+ssid: Ariel_University
+chanel: 11
+signal: -90
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209260029415866,32.10460454393588</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:05:38
+ssid: Ariel_University
+chanel: 11
+signal: -81
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209391453614465,32.104353138646516</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:cc:dc
+ssid: Ariel_University
+chanel: 36
+signal: -82
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209391453614465,32.104353138646516</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:cc:d7
+ssid:  
+chanel: 36
+signal: -84
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209391453614465,32.104353138646516</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>sinusafe</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: b2:6c:ac:a0:3d:eb
+ssid: sinusafe
+chanel: 3
+signal: -85
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209391453614465,32.104353138646516</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:23:58
+ssid: Ariel_University
+chanel: 6
+signal: -85
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209391453614465,32.104353138646516</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:02:6f:8e:64:67
+ssid:  
+chanel: 1
+signal: -88
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209391453614465,32.104353138646516</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:27:22:f3:bb:2b
+ssid:  
+chanel: 6
+signal: -67
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20951483518158,32.10445757414734</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>giftwizard</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: a2:6c:ac:a0:3d:eb
+ssid: giftwizard
+chanel: 3
+signal: -86
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20951483518158,32.10445757414734</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:15:23:5c
+ssid: Ariel_University
+chanel: 36
+signal: -88
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20951483518158,32.10445757414734</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>mati-sh1</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: c4:12:f5:fd:6a:74
+ssid: mati-sh1
+chanel: 9
+signal: -90
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20951483518158,32.10445757414734</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:27:22:f3:bb:2b
+ssid:  
+chanel: 6
+signal: -60
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20907990284449,32.10410055048304</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:02:6f:8e:64:67
+ssid:  
+chanel: 1
+signal: -75
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20907990284449,32.10410055048304</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Guest</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 90:6c:ac:a0:3d:eb
+ssid: Guest
+chanel: 3
+signal: -85
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20907990284449,32.10410055048304</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:2f:ca:18
+ssid: Ariel_University
+chanel: 1
+signal: -85
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20907990284449,32.10410055048304</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:95:23:57
+ssid:  
+chanel: 36
+signal: -89
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20907990284449,32.10410055048304</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Neuropplied</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: a2:6c:ac:9f:fb:1f
+ssid: Neuropplied
+chanel: 1
+signal: -84
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.21008132366616,32.1047658579833</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>shapedo</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: c2:6c:ac:9f:fb:1f
+ssid: shapedo
+chanel: 1
+signal: -88
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.21008132366616,32.1047658579833</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:02:6f:b8:c4:1a
+ssid:  
+chanel: 11
+signal: -84
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20924257240599,32.10413845383883</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CliClap</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 90:6c:ac:9f:f1:c5
+ssid: CliClap
+chanel: 2
+signal: -86
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20924257240599,32.10413845383883</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:cc:d8
+ssid: Ariel_University
+chanel: 1
+signal: -87
+Fri May 12 11:49:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:49Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20888420115906,32.10397878041067</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-13-HP DeskJet 3630 series</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: a0:8c:fd:0a:24:56
+ssid: DIRECT-13-HP DeskJet 3630 series
+chanel: 6
+signal: -76
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209603012313714,32.10369124149031</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: ec:8c:a2:26:d3:c8
+ssid: Ariel_University
+chanel: 6
+signal: -89
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209603012313714,32.10369124149031</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: ec:8c:a2:26:d3:68
+ssid: Ariel_University
+chanel: 11
+signal: -59
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20895288764794,32.10377101876218</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:95:fd:47
+ssid:  
+chanel: 36
+signal: -78
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20895288764794,32.10377101876218</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: ec:8c:a2:26:b0:e8
+ssid: Ariel_University
+chanel: 6
+signal: -83
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20895288764794,32.10377101876218</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: f0:b0:52:3e:d6:f8
+ssid: Ariel_University
+chanel: 11
+signal: -90
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20895288764794,32.10377101876218</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:cc:dc
+ssid: Ariel_University
+chanel: 36
+signal: -70
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209679987029624,32.10451090890667</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:cc:d8
+ssid: Ariel_University
+chanel: 1
+signal: -75
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209679987029624,32.10451090890667</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 18:d6:c7:ad:25:1a
+ssid:  
+chanel: 13
+signal: -88
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209679987029624,32.10451090890667</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>ahmad</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 90:f6:52:05:24:78
+ssid: ahmad
+chanel: 9
+signal: -92
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.209679987029624,32.10451090890667</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:1d:77
+ssid:  
+chanel: 44
+signal: -65
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20818815771101,32.104150528273195</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:27:22:f3:e0:83
+ssid:  
+chanel: 11
+signal: -89
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20818815771101,32.104150528273195</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:2d:79:88
+ssid: Ariel_University
+chanel: 1
+signal: -88
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20734463261277,32.102520715076686</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AUC_54_R</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 00:25:86:cc:00:f8
+ssid: AUC_54_R
+chanel: 5
+signal: -77
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20844864920321,32.10395440953807</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 8c:0c:90:ae:16:83
+ssid:  
+chanel: 11
+signal: -54
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20917496363173,32.103722366164334</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-32-HP DeskJet 3630 series</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: fc:3f:db:9c:43:33
+ssid: DIRECT-32-HP DeskJet 3630 series
+chanel: 6
+signal: -89
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20917496363173,32.103722366164334</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>__ery</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 14:ae:db:58:0d:6d
+ssid: __ery
+chanel: 11
+signal: -83
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20748650610242,32.102558066640206</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:e5:ac
+ssid: Ariel_University
+chanel: 36
+signal: -77
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20968756428499,32.10315360455874</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:e5:a7
+ssid:  
+chanel: 36
+signal: -78
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20968756428499,32.10315360455874</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name> </name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:96:f1:57
+ssid:  
+chanel: 52
+signal: -75
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20968756428499,32.10315360455874</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:f1:5c
+ssid: Ariel_University
+chanel: 52
+signal: -75
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#red</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20968756428499,32.10315360455874</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <visibility>1</visibility>
+                <open>0</open>
+                <description>mac: 1c:b9:c4:16:f1:58
+ssid: Ariel_University
+chanel: 6
+signal: -88
+Fri May 12 11:50:00 IDT 2017</description>
+                <TimeStamp>
+                    <when>2017-05-12T11:50Z</when>
+                </TimeStamp>
+                <styleUrl>#yellow</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>35.20968756428499,32.10315360455874</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
