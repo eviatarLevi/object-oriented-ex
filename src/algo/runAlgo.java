@@ -57,7 +57,7 @@ public class runAlgo {
 			
 		}
 		System.out.println("Done algo 1");
-		return wd;
+		return new wifiDB(newList);
 	}
 	
 }

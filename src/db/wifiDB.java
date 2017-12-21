@@ -24,6 +24,10 @@ public class wifiDB {
 		sort();
 		
 	}
+	public wifiDB(ArrayList<wifiOne> list)
+	{
+		this.list = list;
+	}
 	public void sort()
 	{
 		Collections.sort(list, new Comparator<wifiOne>(){
