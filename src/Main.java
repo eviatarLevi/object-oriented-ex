@@ -25,6 +25,7 @@ public class Main {
 		exportKML.dbToKml("C:/1/e/test2.kml", DBnoGps);
 	
 		
+		
 	}
 
 }
