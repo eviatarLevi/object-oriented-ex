@@ -15,6 +15,7 @@ public class dbTest {
 /**
  * @test 
  */
+	/*
 	@Test
 	public void testAddToLinkedscan() {
 		linkedScan DB = new linkedScan();
@@ -71,5 +72,7 @@ public class dbTest {
 					DBf.head.sC.networks[0].CurrentLongitude<y+dist))
 				fail("error");
 	}
+	
+	*/
 
 }
