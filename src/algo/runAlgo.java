@@ -9,6 +9,7 @@ import wifiScan.Point;
 import wifiScan.wifiContiner;
 
 public class runAlgo {
+	
 	public static void Algo2(scanDB DBnoGps,scanDB DB)
 	{
 		for (int i = 0; i < DBnoGps.getSize(); i++) {
