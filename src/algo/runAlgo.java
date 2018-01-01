@@ -44,13 +44,13 @@ public class runAlgo {
 				if(i<wd.getSize()-1){
 					if(!w.getMac().equals(wd.getIndex(i+1).getMac())){
 						newList.add(new wifiOne(w,new Point(sumLat/sumWeight,
-											sumLon/sumWeight,sumAlt/sumLon)));
+											sumLon/sumWeight,sumAlt/sumWeight)));
 						sumLat =0; sumLon=0; sumAlt=0; sumWeight=0;
 					}
 				}
 				else
 					newList.add(new wifiOne(w,new Point(sumLat/sumWeight,
-							sumLon/sumWeight,sumAlt/sumLon)));
+							sumLon/sumWeight,sumAlt/sumWeight)));
 			} catch (Exception e) {
 				System.err.println(e);
 			}
