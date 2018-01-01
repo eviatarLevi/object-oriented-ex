@@ -16,6 +16,12 @@ public class idFilter implements filter {
 				db.remove(i);
 		}
 	}
+	public void runOnNOT(scanDB db) {
+		for (int i = 0; i < db.getSize(); i++) {
+			if(db.getIndex(i).getDeviceID().contains(id))
+				db.remove(i);
+		}
+	}
 	
 
 }
