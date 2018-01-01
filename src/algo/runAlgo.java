@@ -26,7 +26,7 @@ public class runAlgo {
 			wc.setLon(sumLon/sumWeight);
 			wc.setAlt(sumAlt/sumWeight);
 		}
-		System.out.println("algo2 complite");
+		System.out.println("algo 2 complite");
 	}
 	public static wifiDB Algo1(scanDB wc)
 	{
@@ -56,7 +56,7 @@ public class runAlgo {
 			}
 			
 		}
-		System.out.println("Done algo 1");
+		System.out.println("algo 1 complite");
 		return new wifiDB(newList);
 	}
 	
