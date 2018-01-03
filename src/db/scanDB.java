@@ -12,6 +12,10 @@ public class scanDB {
 	{
 		list = new ArrayList<wifiContiner>();
 	}
+	public scanDB(scanDB DB) 
+	{
+		list = new ArrayList<wifiContiner>(DB.list);
+	}
 	
 	public int addScan(double lat, double lon, double alt, Date date, String deviceID)
 	{
@@ -32,7 +36,9 @@ public class scanDB {
 	}
 	public wifiContiner getIndex(int i)
 	{
-		return list.get(i);
+		if (i<list.size())
+			return list.get(i);
+		return null;
 	}
 	public Wifi getWifiIndex (int i,int j)
 	{
@@ -55,8 +61,8 @@ public class scanDB {
 	{
 		return list.size();
 	}
-	public boolean remove(int i)
+	public void remove(int i)
 	{
-		return list.remove(list.get(i));
+		 list.remove(i);
 	}
 }

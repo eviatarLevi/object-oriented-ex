@@ -95,7 +95,7 @@ public class importCsv {
 	 * @link scanDB
 	 *  merge csv to data
 	 */
-	public static scanDB csvMergeTodb(String folderName,int dateType) throws IOException, ParseException
+	public static scanDB csvMergeTodb(String fileName,int dateType) throws IOException, ParseException
 	{
 		scanDB db = new scanDB();
 		DateFormat format;
@@ -108,37 +108,30 @@ public class importCsv {
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";
-		File folder = new File(folderName);
 		try {
-			FilenameFilter filter = new FilenameFilter() {// csv file filter
-				public boolean accept(File dir, String name) {
-					return name.endsWith(".csv");
+			br = new BufferedReader(new FileReader(fileName));
+			line = br.readLine();
+			String[] country = line.split(cvsSplitBy);
+			Date date = null;
+			int i = -1;
+			while ((line = br.readLine()) != null) {
+				country = line.split(cvsSplitBy);
+				date = format.parse(country[0]);
+				double[] p = new double[3];
+				for (int j = 0; j < 3; j++) {
+					if(country[2+j].equals("?"))
+						p[j] = 0;
+					else
+						p[j] = Double.parseDouble(country[2+j]);
 				}
-			};
-			for (File file : folder.listFiles(filter)){ //for all csv file
-				br = new BufferedReader(new FileReader(file));
-				line = br.readLine();
-				String[] country = line.split(cvsSplitBy);
-				Date date = null;
-				int i = -1;
-				while ((line = br.readLine()) != null) {
-					country = line.split(cvsSplitBy);
-					date = format.parse(country[0]);
-					double[] p = new double[3];
-					for (int j = 0; j < 3; j++) {
-						if(country[2+j].equals("?"))
-							p[j] = 0;
-						else
-							p[j] = Double.parseDouble(country[2+j]);
-					}
-					i = db.addScan(p[0], p[1],p[2], date, country[1]);
-					for (int j = 0; j < 10; j++) {
-						if (country.length > j*4 + 6)
-							db.addWifi(i, country[7+j*4], country[6+j*4], 
-									Integer.parseInt(country[8+j*4]), (int)Double.parseDouble(country[9+j*4]));
-					} 	
-				}
+				i = db.addScan(p[0], p[1],p[2], date, country[1]);
+				for (int j = 0; j < 10; j++) {
+					if (country.length > j*4 + 6)
+						db.addWifi(i, country[7+j*4], country[6+j*4], 
+								Integer.parseInt(country[8+j*4]), (int)Double.parseDouble(country[9+j*4]));
+				} 	
 			}
+
 			System.out.println("merge csv read complete");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

@@ -1,14 +1,37 @@
 package filters;
 
+import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.Format;
 import java.util.Date;
 
 import db.scanDB;
 import wifiScan.wifiContiner;
 
-public class dateFilter implements filter {
+public class dateFilter implements filter,Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Date start;
 	Date end;
-	
+
+	public String getStart(DateFormat format) {
+		if (start != null)
+			return format.format(start);
+		return "";
+	}
+	public void setStart(Date start) {
+		this.start = start;
+	}
+	public String getEnd(DateFormat format) {
+		if (end != null)
+			return format.format(end);
+		return "";
+	}
+	public void setEnd(Date end) {
+		this.end = end;
+	}
 	public dateFilter(Date start, Date end) {
 		if(start != null && end != null)
 		{
@@ -22,9 +45,9 @@ public class dateFilter implements filter {
 			wifiContiner wc = db.getIndex(i);
 			if (wc!=null){
 				Date d = wc.getDate();
-				if(d.before(start) || d.after(end))
-				{
+				if(d.before(start) || d.after(end)){
 					db.remove(i);
+					i--;
 				}
 			}
 		}
@@ -34,12 +57,12 @@ public class dateFilter implements filter {
 			wifiContiner wc = db.getIndex(i);
 			if (wc!=null){
 				Date d = wc.getDate();
-				if(d.before(end) && d.after(start))
-				{
+				if(d.before(end) && d.after(start)){
 					db.remove(i);
+					i--;
 				}
 			}
 		}
 	}
-	
+
 }

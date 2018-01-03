@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 import tools.myFunction;
+import wifiScan.Point;
 import wifiScan.Wifi;
 import wifiScan.wifiContiner;
 
@@ -35,6 +36,17 @@ public class wifiDB {
 				return s1.getMac().compareToIgnoreCase(s2.getMac());
 			}
 		});
+	}
+	public String findLoc(String MAC)
+	{
+		for (int i = 0; i < getSize(); i++) {
+			wifiOne w = list.get(i);
+			if (w.getMac().equals(MAC)) {
+				Point p = w.getPoint();
+				return "lat=" + p.getLat() + " lon=" + p.getLon() + " alt=" + p.getAlt();
+			}
+		}
+		return null;
 	}
 	public int getSize()
 	{
