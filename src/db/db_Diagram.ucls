@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="db.scanDB" project="object oriented" file="/object oriented/src/db/scanDB.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="697" y="217"/>    
+  <class id="1" language="java" name="src.db.scanDB" project="object oriented" 
+    file="/object oriented/src/db/scanDB.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="200" y="236"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="db.wifiDB" project="object oriented" file="/object oriented/src/db/wifiDB.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="207" width="184" x="41" y="101"/>    
+  <class id="2" language="java" name="src.db.wifiDB" project="object oriented" 
+    file="/object oriented/src/db/wifiDB.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="184" x="433" y="133"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="db.wifiOne" project="object oriented" file="/object oriented/src/db/wifiOne.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="418" y="129"/>    
+  <class id="3" language="java" name="src.db.wifiOne" project="object oriented" 
+    file="/object oriented/src/db/wifiOne.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="151" x="745" y="113"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="4">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="5" name="list"/>      
-      <multiplicity id="6" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
