@@ -6,11 +6,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.text.DateFormat;
-import java.text.Format;
-
 import db.scanDB;
 import filters.dateFilter;
-import filters.filter;
 import filters.idFilter;
 import filters.locationFilter;
 
