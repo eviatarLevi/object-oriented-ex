@@ -23,7 +23,7 @@ public class GUIobjects {
 	public filterMode filterM;
 	public static boolean isFinishSQL = false;
 
-	public void saveObj(String pName) throws IOException
+	public void saveObj(String pName)	 throws IOException
 	{
 		try {
 			FileOutputStream fileOut =

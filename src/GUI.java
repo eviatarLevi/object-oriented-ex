@@ -17,6 +17,7 @@ import filters.dateFilter;
 import filters.idFilter;
 import filters.locationFilter;
 import mySQL.MySQL_101;
+import tools.myParameters;
 import update.DirWatcher;
 import update.FileWatcher;
 import update.upSQL;
@@ -856,7 +857,7 @@ public class GUI {
 							}
 						};
 						timerFolder = new Timer();
-						timerFolder.schedule( taskFolder , new Date(), 1000 );
+						timerFolder.schedule( taskFolder , new Date(), (myParameters.TIME_UP/2)*1000 );
 						panel_0.setVisible(true);
 						btnKmlExport.setEnabled(true);
 						btnCsvExport.setEnabled(true);
@@ -976,7 +977,20 @@ public class GUI {
 							panel_1.setVisible(false);
 							panel_2.setVisible(false);
 							panel.setVisible(false);
-
+							upSQL upsql = new upSQL() {
+								
+								@Override
+								protected void onRun() {
+									JOptionPane.showMessageDialog(null,  "SQL changed");
+									try {
+										Gobj.DB1 = MySQL_101.getData();
+										Gobj.DBwork = new scanDB(Gobj.DB1);
+									} catch (ParseException e) {
+										// TODO Auto-generated catch block
+										e.printStackTrace();
+									}	
+								}
+							};
 					}
 					else
 						JOptionPane.showMessageDialog(null, "שגיאה בפתיחת SQL", "", 1);

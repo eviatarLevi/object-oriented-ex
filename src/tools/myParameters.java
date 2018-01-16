@@ -8,4 +8,5 @@ public class myParameters {
 	public static final int MIN_DIF = 3;
 	public static final int NO_SIGNAL = -120;
 	public static final int NO_SIG_DIF = 100;
+	public static final int TIME_UP = 8;//sec
 }
