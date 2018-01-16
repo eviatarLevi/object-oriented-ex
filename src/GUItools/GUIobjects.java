@@ -21,6 +21,7 @@ public class GUIobjects {
 	public DateFormat format;
 	public dateFilter DateFilter;
 	public filterMode filterM;
+	public static boolean isFinishSQL = false;
 
 	public void saveObj(String pName) throws IOException
 	{

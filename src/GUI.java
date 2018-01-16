@@ -16,6 +16,10 @@ import files.importCsv;
 import filters.dateFilter;
 import filters.idFilter;
 import filters.locationFilter;
+import mySQL.MySQL_101;
+import update.DirWatcher;
+import update.FileWatcher;
+import update.upSQL;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -26,6 +30,8 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import javax.swing.JButton;
 import java.awt.Font;
@@ -33,6 +39,9 @@ import java.awt.Font;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import java.awt.SystemColor;
+import java.awt.TexturePaint;
+import java.awt.Window;
+
 import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -61,6 +70,10 @@ public class GUI {
 	private JTextField textALgo2mac3;
 	private JTextField textALgo2Signal3;
 	private GUIobjects Gobj = new GUIobjects();
+	TimerTask taskFile;
+	TimerTask taskFolder;
+	Timer timerFolder;
+	Timer timerFile;
 
 	/**
 	 * @wbp.nonvisual location=654,139
@@ -68,6 +81,12 @@ public class GUI {
 	private final JFileChooser fileChooser = new JFileChooser();
 	private final JFileChooser folderChooser = new JFileChooser();
 	private final JFileChooser saveChooser = new JFileChooser();
+	private JTextField textIP;
+	private JTextField textPort;
+	private JTextField textUser;
+	private JTextField textPas;
+	private JTextField textDB;
+	private JLabel kldb;
 	/**
 	 * Launch the application.
 	 */
@@ -118,6 +137,66 @@ public class GUI {
 			}
 		});
 		frame.getContentPane().setLayout(null);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(248, 71, 368, 235);
+		frame.getContentPane().add(panel);
+		panel.setLayout(null);
+		
+		textIP = new JTextField();
+		textIP.setText("5.29.193.52");
+		textIP.setColumns(10);
+		textIP.setBounds(156, 11, 116, 20);
+		panel.add(textIP);
+		
+		textPort = new JTextField();
+		textPort.setText("3306");
+		textPort.setColumns(10);
+		textPort.setBounds(156, 40, 116, 20);
+		panel.add(textPort);
+		
+		textUser = new JTextField();
+		textUser.setText("oop1");
+		textUser.setColumns(10);
+		textUser.setBounds(156, 70, 116, 20);
+		panel.add(textUser);
+		
+		textPas = new JTextField();
+		textPas.setText("Lambda1();");
+		textPas.setColumns(10);
+		textPas.setBounds(156, 101, 116, 20);
+		panel.add(textPas);
+		
+		textDB = new JTextField();
+		textDB.setText("oop_course_ariel");
+		textDB.setColumns(10);
+		textDB.setBounds(156, 135, 116, 20);
+		panel.add(textDB);
+		
+		JButton button_2 = new JButton("OK");
+		
+		button_2.setBounds(156, 180, 106, 39);
+		panel.add(button_2);
+		
+		kldb = new JLabel("DB:");
+		kldb.setBounds(133, 135, 30, 14);
+		panel.add(kldb);
+		
+		JLabel lkk = new JLabel("password:");
+		lkk.setBounds(101, 101, 68, 14);
+		panel.add(lkk);
+		
+		JLabel label_5 = new JLabel("user:");
+		label_5.setBounds(123, 70, 46, 14);
+		panel.add(label_5);
+		
+		JLabel label_6 = new JLabel("port:");
+		label_6.setBounds(123, 40, 46, 14);
+		panel.add(label_6);
+		
+		JLabel label_7 = new JLabel("ip:");
+		label_7.setBounds(133, 11, 36, 14);
+		panel.add(label_7);
 
 		JPanel panel_2 = new JPanel();
 		panel_2.setLayout(null);
@@ -267,7 +346,7 @@ public class GUI {
 		panel_1.setBounds(248, 71, 363, 235);
 		frame.getContentPane().add(panel_1);
 		panel_1.setVisible(false);
-
+		panel.setVisible(false);
 		chBfId = new JCheckBox("id Filter");
 
 
@@ -739,6 +818,20 @@ public class GUI {
 		btnKmlExport.setEnabled(false);
 		btnKmlExport.setBounds(10, 306, 201, 49);
 		frame.getContentPane().add(btnKmlExport);
+		
+		JButton openSQLb = new JButton("open SQL tabel");
+		openSQLb.setEnabled(false);
+		openSQLb.addActionListener(new ActionListener() {
+			public void  actionPerformed(ActionEvent arg0) {
+				panel.setVisible(true);
+			}
+				
+			
+		});
+		openSQLb.setHorizontalAlignment(SwingConstants.LEFT);
+		openSQLb.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		openSQLb.setBounds(10, 186, 201, 49);
+		frame.getContentPane().add(openSQLb);
 		openFb.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				int result = folderChooser.showOpenDialog(frame);
@@ -748,6 +841,22 @@ public class GUI {
 					try {
 						Gobj.DB1 = importCsv.csvFolderTodb(Gobj.FolderName, 1);
 						Gobj.DBwork = new scanDB(Gobj.DB1);
+						taskFolder = new DirWatcher(Gobj.FolderName,"csv") {
+
+							@Override
+							protected void onChange(File file, String action) {
+								JOptionPane.showMessageDialog(null, "The file "+file.getName()+" changed");
+								try {
+									Gobj.DB1 = importCsv.csvFolderTodb(Gobj.FolderName, 1);
+								} catch (IOException | ParseException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
+								Gobj.DBwork = new scanDB(Gobj.DB1);
+							}
+						};
+						timerFolder = new Timer();
+						timerFolder.schedule( taskFolder , new Date(), 1000 );
 						panel_0.setVisible(true);
 						btnKmlExport.setEnabled(true);
 						btnCsvExport.setEnabled(true);
@@ -784,6 +893,23 @@ public class GUI {
 					try {
 						Gobj.DB1 = importCsv.csvMergeTodb(Gobj.csvMergeName, 1);
 						Gobj.DBwork = new scanDB(Gobj.DB1);
+						
+						taskFile = new FileWatcher(new File(Gobj.csvMergeName)) {
+
+							@Override
+							protected void onChange(File file) {
+								JOptionPane.showMessageDialog(null, "The file "+file.getName()+" changed");
+								try {
+									Gobj.DB1 = importCsv.csvMergeTodb(Gobj.csvMergeName, 1);
+								} catch (IOException | ParseException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
+								Gobj.DBwork = new scanDB(Gobj.DB1);
+							}
+						};
+						timerFile = new Timer();
+						timerFile.schedule( taskFile , new Date(), 1000 );
 						panel_0.setVisible(true);
 						btnKmlExport.setEnabled(true);
 						btnCsvExport.setEnabled(true);
@@ -820,6 +946,7 @@ public class GUI {
 				openCb.setEnabled(true);
 				btnSaveproject.setEnabled(true);
 				btnSaveEndExit.setEnabled(true);
+				openSQLb.setEnabled(true);
 
 			}
 		});
@@ -827,6 +954,38 @@ public class GUI {
 			public void actionPerformed(ActionEvent e) {
 				panel_1.setVisible(true);
 				panel_0.setVisible(false);
+			}
+		});
+		button_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				MySQL_101._ip = textIP.getText();
+				MySQL_101._port = textPort.getText();
+				MySQL_101._user = textUser.getText();
+				MySQL_101._password = textPas.getText();
+				MySQL_101._urld = kldb.getText();
+				try {
+					Gobj.DB1 = MySQL_101.getData();
+					if (Gobj.DB1 != null)
+					{
+							Gobj.DBwork = new scanDB(Gobj.DB1);
+							panel_0.setVisible(true);
+							btnKmlExport.setEnabled(true);
+							btnCsvExport.setEnabled(true);
+							btnSaveproject.setEnabled(true);
+							btnBack.setEnabled(true);
+							panel_1.setVisible(false);
+							panel_2.setVisible(false);
+							panel.setVisible(false);
+
+					}
+					else
+						JOptionPane.showMessageDialog(null, "שגיאה בפתיחת SQL", "", 1);
+				} catch (NumberFormatException | ParseException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+					JOptionPane.showMessageDialog(null, "שגיאה בפתיחת SQL", "", 1);
+				}
+				
 			}
 		});
 
