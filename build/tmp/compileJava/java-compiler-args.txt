@@ -1,0 +1,42 @@
+-source
+1.8
+-target
+1.8
+-d
+"C:\\Users\\levie\\workspace\\object oriented\\build\\classes\\java\\main"
+-g
+-sourcepath
+""
+-proc:none
+-XDuseUnsharedTable=true
+-classpath
+"C:\\Users\\levie\\workspace\\object oriented\\libs\\javaapiforkml-2.2.0.jar;C:\\Users\\levie\\workspace\\object oriented\\libs\\jaxb-api-2.2.jar;C:\\Users\\levie\\workspace\\object oriented\\libs\\jaxb-impl-2.2.5.jar;C:\\Users\\levie\\workspace\\object oriented\\libs\\mysql-connector-java-5.1.45-bin.jar"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\algo\\runAlgo.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\algo\\weightCal.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\algo\\wifiContinerAndW.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\db\\scanDB.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\db\\wifiDB.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\db\\wifiOne.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\dbTest.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\files\\exportCsv.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\files\\exportKML.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\files\\importCsv.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\filters\\dateFilter.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\filters\\filter.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\filters\\idFilter.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\filters\\locationFilter.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\GUI.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\GUItools\\filterMode.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\GUItools\\GUIobjects.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\Main.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\mySQL\\MySQL_101.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\tools\\myFunction.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\tools\\myParameters.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\update\\DirFilterWatcher.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\update\\DirWatcher.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\update\\FileWatcher.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\update\\upSQL.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\wifiScan\\Location.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\wifiScan\\Point.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\wifiScan\\Wifi.java"
+"C:\\Users\\levie\\workspace\\object oriented\\src\\main\\java\\wifiScan\\wifiContiner.java"
